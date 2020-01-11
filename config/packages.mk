@@ -26,7 +26,8 @@ PRODUCT_PACKAGES += \
 # DerpFest packages
 PRODUCT_PACKAGES += \
     OmniRecord \
-    WallpapersBReel2019
+    WallpapersBReel2019 \
+    DU-Themes
 
 # Filesystems tools
 PRODUCT_PACKAGES += \
@@ -42,17 +43,4 @@ PRODUCT_PACKAGES += \
     libprotobuf-cpp-full \
     librsjni
 
-# Accents
-PRODUCT_PACKAGES += \
-    AccentColorYellowOverlay \
-    AccentColorVioletOverlay \
-    AccentColorTealOverlay \
-    AccentColorRedOverlay \
-    AccentColorQGreenOverlay \
-    AccentColorPinkOverlay \
-    AccentColorLightPurpleOverlay \
-    AccentColorIndigoOverlay \
-    AccentColorFlatPinkOverlay \
-    AccentColorCyanOverlay \
-    AccentColorBlueGrayOverlay \
-    AccentColorMintOverlay
+$(call inherit-product, vendor/themes/common.mk)
