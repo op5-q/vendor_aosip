@@ -145,5 +145,8 @@ PRODUCT_PACKAGES += \
 # GApps
 include vendor/gapps/config.mk
 
+# Customization
+include vendor/google/customization/config.mk
+
 # Pixel Style
 include vendor/pixelstyle/config.mk
