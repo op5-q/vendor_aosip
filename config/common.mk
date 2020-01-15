@@ -111,8 +111,6 @@ PRODUCT_RESTRICT_VENDOR_FILES := false
 # Bootanimation
 include vendor/aosip/config/bootanimation.mk
 
-# GSans font
-include vendor/aosip/config/fonts.mk
 
 # Pixel sounds
 include vendor/aosip/config/sounds.mk
