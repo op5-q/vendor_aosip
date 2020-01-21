@@ -27,7 +27,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     OmniRecord \
     WallpapersBReel2019 \
-    DU-Themes
+    DU-Themes \
+    Launcher3QuickStep
 
 # Filesystems tools
 PRODUCT_PACKAGES += \
