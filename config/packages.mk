@@ -45,3 +45,5 @@ PRODUCT_PACKAGES += \
     librsjni
 
 $(call inherit-product, vendor/themes/common.mk)
+
+$(call inherit-product-if-exists, vendor/lawnchair/lawnchair.mk)
